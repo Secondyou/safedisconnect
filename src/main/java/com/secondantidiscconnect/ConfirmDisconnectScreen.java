@@ -15,13 +15,13 @@ public class ConfirmDisconnectScreen extends Screen {
 
     @Override
     protected void init() {
-        this.addDrawableChild(ButtonWidget.builder(Text.of("Confirm Disconnect"), button -> 
+        this.addDrawableChild(ButtonWidget.builder(Text.of(SecondyouNoMissedDisconnect.CONFIG.confirmDisconnectButtonText), button -> 
             this.client.world.disconnect())
             .dimensions(this.width / 2 - 100, this.height / 6 + 96, 200, 20)
             .build()
         );
 
-        this.addDrawableChild(ButtonWidget.builder(Text.of("Cancel"), button -> 
+        this.addDrawableChild(ButtonWidget.builder(Text.of(SecondyouNoMissedDisconnect.CONFIG.cancelButtonText), button -> 
             this.client.setScreen(this.parent))
             .dimensions(this.width / 2 - 100, this.height / 6 + 120, 200, 20)
             .build()
