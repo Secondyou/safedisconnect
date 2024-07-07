@@ -5,11 +5,11 @@
 	"name": "Secondyou No Missed Disconnect",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Secondyou"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Secondyou/safedisconnect"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/secondyou-no-missed-disconnect/icon.png",

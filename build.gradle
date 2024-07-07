@@ -27,7 +27,7 @@ loom {
 			sourceSet sourceSets.client
 		}
 	}
-
+  maven { url "https://maven.shedaniel.me/" }
 }
 
 dependencies {
