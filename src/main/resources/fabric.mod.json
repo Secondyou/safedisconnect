@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/Secondyou/safedisconnect"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/secondyou-safedisconnect/icon.png",
 	"environment": "*",
 	"entrypoints": {
