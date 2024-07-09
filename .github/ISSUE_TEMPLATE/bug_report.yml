@@ -38,7 +38,7 @@ body:
 
   - type: textarea
     attributes:
-      label: PC Infomation (if you use android dont fill this)
+      label: PC Infomation (if you use phone dont fill this)
       description: |
         - Launcher: [e.g. MultiMC]
         - Minecraft Version: [e.g. 1.19.2]
@@ -49,7 +49,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Android Information (If you use pc Dont fill this)
+      label: Phone Information (If you use pc Dont fill this)
       description: |
         - Device: [e.g. iPhone6]
         - OS: [e.g. Android 8]
