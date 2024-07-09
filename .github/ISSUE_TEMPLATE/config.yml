@@ -1,0 +1,12 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Bug Report
+    url: https://github.com/secondyou/safedisconnect/issues/new?template=bug_report.md
+    about: Report a bug or issue with the project.
+  - name: Feature Request
+    url: https://github.com/secondyou/safedisconnect/issues/new?template=feature_request.md
+    about: Suggest a new feature or enhancement.
+  - name: Custom Support Request
+    url: https://github.com/secondyou/safedisconnect/issues/new?template=support_request.md
+    about: Request custom support or help with the project.
+    
