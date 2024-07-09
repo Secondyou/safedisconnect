@@ -1,5 +1,5 @@
-name: build
-on: [pull_request, push, workflow_dispatch]
+name: Test Build
+on: workflow_dispatch
 
 jobs:
   build:
