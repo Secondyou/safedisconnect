@@ -1,6 +1,6 @@
 # Secondyou's Safe Disconnect
 ## Breif
-So did you accidently click on disconnect and it disconnect \n
+So did you accidently click on disconnect and it disconnect
 This mod is for you
 ## Feature
 - Prevent Disconnect in multiplayer screen
