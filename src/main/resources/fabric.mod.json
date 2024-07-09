@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "secondyou-no-missed-disconnect",
+	"id": "secondyou-safedisconnect",
 	"version": "${version}",
-	"name": "Secondyou No Missed Disconnect",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Secondyou safedisconnect",
+	"description": "Safe Disconnect! Prevent miss clicked on Disconnect button",
 	"authors": [
 		"Secondyou"
 	],
@@ -11,30 +11,25 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/Secondyou/safedisconnect"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/secondyou-no-missed-disconnect/icon.png",
+	"license": "MIT",
+	"icon": "assets/secondyou-safedisconnect/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.secondantidiscconnect.SecondyouNoMissedDisconnect"
+			"net.secondyou.safedisconnect.SecondyouSafedisconnect"
 		],
-		"client": [
-			"com.secondantidiscconnect.SecondyouNoMissedDisconnectClient"
+		"fabric-datagen": [
+			"net.secondyou.safedisconnect.SecondyouSafedisconnectDataGenerator"
 		]
 	},
 	"mixins": [
-		"secondyou-no-missed-disconnect.mixins.json",
-		{
-			"config": "secondyou-no-missed-disconnect.client.mixins.json",
-			"environment": "client"
-		}
+		"secondyou-safedisconnect.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
-		"cloth-config": ">=11.0.0"
 	},
 	"suggests": {
 	}

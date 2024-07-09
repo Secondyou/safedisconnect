@@ -18,16 +18,8 @@ repositories {
 	// for more information about repositories.
 }
 
-loom {
-	splitEnvironmentSourceSets()
-
-	mods {
-		"secondyou-no-missed-disconnect" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-  maven { url "https://maven.shedaniel.me/" }
+fabricApi {
+	configureDataGeneration()
 }
 
 dependencies {
@@ -38,7 +30,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}"
+	
 }
 
 processResources {
