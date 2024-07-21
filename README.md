@@ -1,4 +1,5 @@
 # Secondyou's Safe Disconnect
+[![build](https://github.com/Secondyou/safedisconnect/actions/workflows/testbuild.yml/badge.svg)](https://github.com/Secondyou/safedisconnect/actions/workflows/testbuild.yml)
 ## Breif
 So did you accidently click on disconnect and it disconnect
 This mod is for you
